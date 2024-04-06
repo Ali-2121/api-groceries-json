@@ -11,7 +11,8 @@ const productSchema = new Schema({
     cost: Number,
     stock:Number,
     expiredDate:String,
-    status:Number
+    status:Number,
+    statuss: Boolean 
 },{
     versionKey:false,
     timestamps:true
